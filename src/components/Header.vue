@@ -61,9 +61,14 @@ export default {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background: #222;
   padding: 1em 2em;
   text-align: center;
+  z-index: 10;
 }
 
 .nav {

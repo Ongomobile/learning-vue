@@ -1,6 +1,8 @@
 <template>
   <!-- Syntatic Sugar for events @click="onClick()" -->
-  <button @click="showAlert" :style="{ background: color }" class="btn"><fa :icon="iconName" /> {{ text }}</button>
+  <button @click="showAlert" :style="{ background: color, padding: setPadding }" class="btn">
+    <fa :icon="iconName" /> {{ text }}
+  </button>
 </template>
 
 <script>
@@ -10,6 +12,7 @@ export default {
     text: String,
     color: String,
     iconName: String,
+    setPadding: String,
   },
   methods: {
     showAlert() {

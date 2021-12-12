@@ -1,16 +1,23 @@
 <template>
   <div>
     <Header />
+    <Hero
+      headlineText="Let's Conquer The World"
+      subheadlineOne="Think of us as Q, and you, 007 - our favorite thing is giving you the tools to sell more, do more, and be more"
+      imgUrl="https://www.aeontg.com/img/header.jpg"
+    />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header"
+import Hero from "./components/Hero"
 
 export default {
   name: "App",
   components: {
     Header,
+    Hero,
   },
 }
 </script>
