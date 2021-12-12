@@ -15,7 +15,7 @@ export default {
     showAlert() {
       // Use sweetalert2
       this.$swal.fire({
-        title: "Download ultimate cart conversions guide",
+        title: "Download ultimate conversions guide",
         imageUrl: "https://res.cloudinary.com/dnpje4e34/image/upload/v1639258215/shopping-cart800_btjyqp.jpg",
         imageWidth: 400,
         imageHeight: 266,

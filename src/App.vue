@@ -76,7 +76,8 @@ h6 {
   isolation: isolate;
 }
 /* End reset */
-.container {
+
+html:lang(en) .container {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
